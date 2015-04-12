@@ -101,7 +101,7 @@
 		<%tot_amount = big_credit - big_debit %>
         <tr><td colspan=8><hr style="width:100%"></td></tr>
 		<tr style="height:100%">
-			<td class="font_10" colspan="4">
+			<td class="w100 font_10" colspan="4">
                 <span><b>${_("TOTAL (CREDIT - DEBIT):")} ${formatLang(tot_amount or 0.00, digits=get_digits(dp='Account'))} - ${_("TOTAL CREDIT:")} ${formatLang(big_credit or 0.00, digits=get_digits(dp='Account'))} - ${_("TOTAL DEBIT:")} ${formatLang(big_debit or 0.00, digits=get_digits(dp='Account'))}</b></span></td>
 		</tr>
     </table>
